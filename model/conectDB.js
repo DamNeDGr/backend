@@ -10,7 +10,7 @@ const connectDB = async () => {
     try {
         await mongoose.connect(DB_LINK, {
             // useNewUrlParser: true,
-            // // useUnifiedTopology: true
+            // useUnifiedTopology: true
         });
         console.log('Подключение к бд успешно!');
     }
