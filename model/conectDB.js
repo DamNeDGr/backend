@@ -9,8 +9,8 @@ const DB_LINK = process.env.DB_LINK;
 const connectDB = async () => {
     try {
         await mongoose.connect(DB_LINK, {
-            useNewUrlParser: true,
-            // useUnifieldTopology: true
+            // useNewUrlParser: true,
+            // // useUnifiedTopology: true
         });
         console.log('Подключение к бд успешно!');
     }
